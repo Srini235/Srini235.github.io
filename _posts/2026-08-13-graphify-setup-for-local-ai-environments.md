@@ -1,10 +1,17 @@
 ---
-layout: default
-title: Local Graphify Setup
-description: End-to-end workflow for running Graphify with Ollama and VS Code orchestrators.
+layout: post
+title: "Graphify Setup for Local AI Environments"
+date: 2026-08-13
+categories: [AI, Graphify, Setup]
+author: Srini
+excerpt: "A practical guide for running Graphify locally with Ollama and VS Code."
 has_children: false
 nav_order: 1
 ---
+
+## Why this setup matters
+
+If you want Graphify to work reliably on a local machine, the key is to match the right backend, environment, and model. This guide walks through the full setup for Windows users running Ollama and VS Code locally.
 
 # Graphify Setup for Local AI Environments
 
