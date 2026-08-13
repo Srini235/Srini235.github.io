@@ -1,4 +1,4 @@
-# Srini235.github.io
+# Srini's pages
 
 theme: jekyll-theme-minimal
 title: Srini's homepage
