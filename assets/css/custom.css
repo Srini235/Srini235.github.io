@@ -1,0 +1,8 @@
+body {
+  background: #f4efe8 !important;
+  color: #1a1a1a;
+}
+
+main, .page-content, .wrapper {
+  background: #f4efe8;
+}
