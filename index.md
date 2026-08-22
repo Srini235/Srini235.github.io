@@ -35,4 +35,4 @@ It exists for three reasons:
   {% endfor %}
 </ul>
 
-<p><a href="{{ '/archive/' | relative_url }}">Browse the full archive →</a></p>
+<p><a href="{{ '/2026/' | relative_url }}">Browse the full archive →</a></p>

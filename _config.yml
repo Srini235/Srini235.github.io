@@ -1,0 +1,33 @@
+title: "Srini's Pages"
+description: >-
+  A diary of my personal and professional journey — focused on AI, ML,
+  and the tools I build or break along the way.
+author: Srini
+url: "https://srini235.github.io"
+baseurl: ""
+
+# Theme. The default minima ships with GitHub Pages; safe and predictable.
+theme: minima
+
+# Plugins must be listed here, not just in the Gemfile, for Jekyll to load them.
+plugins:
+  - jekyll-archives
+
+# Configuration consumed by the jekyll-archives plugin. Each enabled
+# archive type generates a page using the named layout, at the named permalink.
+jekyll-archives:
+  enabled:
+    - year
+    - month
+    - tags
+    - categories
+  layouts:
+    year: archive
+    month: archive
+    tags: archive
+    categories: archive
+  permalinks:
+    year: "/:year/"
+    month: "/:year/:month/"
+    tags: "/tag/:name/"
+    categories: "/category/:name/"
