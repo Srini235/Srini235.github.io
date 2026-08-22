@@ -1,5 +1,3 @@
-<link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
-
 ---
 layout: post
 title: "Graphify Setup for Local AI Environments"
