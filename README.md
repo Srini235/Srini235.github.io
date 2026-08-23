@@ -7,18 +7,19 @@ postgraduate studies in **AI / ML**.
 
 | Path | Purpose |
 | --- | --- |
-| `index.md` | The Jekyll homepage. Edit this to change what visitors see at <https://srini235.github.io>. |
-| `_posts/` | Blog posts. One Markdown file per post, named `YYYY-MM-DD-title.md`. |
-| `assets/` | Static files (CSS, images) served as-is by Jekyll. |
+| `Srini235.github.io/` | Jekyll source for my personal site and blog. Published to <https://srini235.github.io>. |
+| `venv/` | Local Python virtual environment. Re-create with `python -m venv venv` rather than committing dependencies here. |
 
 ## The blog
 
-Posts live in `_posts/` and use standard Jekyll front matter (see any
-post for the template).
+The site inside `Srini235.github.io/` is the public-facing part of this repo.
+Posts live in `Srini235.github.io/_posts/` and use standard Jekyll front
+matter (see any post for the template).
 
 ### Running locally
 
 ```powershell
+cd Srini235.github.io
 bundle install
 bundle exec jekyll serve
 ```
@@ -42,8 +43,9 @@ categories: [Category]
 
 - Keep prose in plain Markdown — no HTML unless a layout requires it.
 - Code fences include the language tag (` ```powershell `, ` ```python `, …).
-- Don't commit model weights or generated graph dumps.
+- Don't commit virtualenv contents, model weights, or generated graph dumps.
 
 ## Contact
 
-Open an issue on GitHub or reach me through the links on the site.
+- [GitHub](https://github.com/Srini235) - Open an issue or explore my repositories.
+- [LinkedIn](https://www.linkedin.com/in/srinivasan-ravichandran-8340b9128/) - Connect with me professionally.
